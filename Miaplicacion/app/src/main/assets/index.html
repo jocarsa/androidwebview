@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            button{
+                background:blue;
+                color:white;
+                padding:20px;
+                border-radius:30px;
+                border:0px;
+                font-size:24px;
+            }
+        </style>
+    </head>
+    <body>
+        <button>Pulsame</button>
+        <div id="contenedor"></div>
+        <script>
+            document.querySelector("button").onclick = function(){
+                document.querySelector("#contenedor").innerHTML = "Hola que tal"
+            }
+        </script>
+    </body>
+</html>
